@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#160d14" />
+  <meta name="description" content="A little birthday love story for Sohail, from Reenaz." />
+  <title>For Sohail — With Love, Reenaz ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <div id="hearts"></div>
+
+  <header class="topbar">
+    <div class="brand">R <span>♡</span> S</div>
+    <button class="music-btn" id="musicBtn" aria-label="Toggle music">♫ <span>Music</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A little birthday page, made only for you</p>
+        <h1>Happy Birthday,<br><em>Sohail</em> ♡</h1>
+        <p class="hero-text">
+          From <strong>May 6, 2022</strong> to today — through the good days,
+          the difficult days, the waiting, the laughter and all the little moments
+          in between. This is our little corner of the internet.
+        </p>
+        <div class="hero-actions">
+          <a href="#story" class="btn primary">Our story ↓</a>
+          <button class="btn ghost" id="openLetter">Open my letter ✉</button>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="photo-glow"></div>
+        <div class="hero-photo">
+          <img src="images/memory-06.jpeg" alt="Reenaz and Sohail together" />
+          <div class="photo-tag">May 6, 2022 → ∞</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="counter-section" aria-label="Our journey">
+      <div class="counter-card">
+        <span class="counter-label">Together since</span>
+        <strong>06 · 05 · 2022</strong>
+        <span id="daysTogether">Loading our little counter…</span>
+      </div>
+      <div class="counter-card">
+        <span class="counter-label">The next chapter</span>
+        <strong>In shaa Allah ♡</strong>
+        <span>One day, our plans become our home.</span>
+      </div>
+      <div class="counter-card">
+        <span class="counter-label">My favourite kind of love</span>
+        <strong>Patient & kind</strong>
+        <span>The kind that chooses sabr.</span>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="section-heading">
+        <p class="eyebrow">Our little timeline</p>
+        <h2>Some dates. <em>A whole lot of memories.</em></h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="dot"></div>
+          <div>
+            <span>06 May 2022</span>
+            <h3>The day our story began</h3>
+            <p>One date that quietly became one of the most important dates in my life.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="dot"></div>
+          <div>
+            <span>The days in between</span>
+            <h3>We saw the odds — and kept going</h3>
+            <p>Not every chapter was easy. But every hard chapter taught us something about patience, understanding and choosing each other.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="dot"></div>
+          <div>
+            <span>Today</span>
+            <h3>Still my person</h3>
+            <p>After everything, I still look at you and think: there is so much life left for us to build.</p>
+          </div>
+        </article>
+        <article class="timeline-item future">
+          <div class="dot"></div>
+          <div>
+            <span>In shaa Allah · 2027</span>
+            <h3>Our next chapter</h3>
+            <p>From “one day” to “our home” — may Allah make the path easy, beautiful and full of barakah.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="memories section">
+      <div class="section-heading center">
+        <p class="eyebrow">Little pieces of us</p>
+        <h2>Tap a memory. <em>There is a message behind it.</em></h2>
+      </div>
+
+      <div class="gallery">
+        <button class="memory-card tall" data-message="I love the quiet moments most — the ones where we don't need to do anything special. Just being beside you feels special to me. ♡">
+          <img src="images/memory-02.jpeg" alt="A memory of Reenaz and Sohail" />
+          <span class="memory-label">Quiet moments</span>
+        </button>
+        <button class="memory-card" data-message="You have this way of making ordinary days feel less ordinary. Thank you for every small thing you have done for me.">
+          <img src="images/memory-03.jpeg" alt="Sohail smiling in a historic setting" />
+          <span class="memory-label">The smile I know</span>
+        </button>
+        <button class="memory-card" data-message="You are one of the most patient people I have known. Your sabr has taught me more than you probably realise.">
+          <img src="images/memory-04.jpeg" alt="Sohail posing for a photo" />
+          <span class="memory-label">Your sabr</span>
+        </button>
+        <button class="memory-card" data-message="Some memories don't need a caption. They just need to be kept. This one is staying with me.">
+          <img src="images/memory-05.jpeg" alt="Sohail in a beautiful historic courtyard" />
+          <span class="memory-label">A day to remember</span>
+        </button>
+        <button class="memory-card wide" data-message="And this is the part I love: knowing that our story is still being written. We have more places to go, more food to share, more laughs to have.">
+          <img src="images/memory-06.jpeg" alt="Reenaz and Sohail together" />
+          <span class="memory-label">Us ♡</span>
+        </button>
+        <button class="memory-card screenshot" data-message="Six long months, one little hand-hold, and a whole lot of feelings. Some moments become memories before we even realise it.">
+          <img src="images/memory-01.png" alt="A saved memory from Sohail" />
+          <span class="memory-label">A memory saved</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="love section">
+      <div class="section-heading">
+        <p class="eyebrow">Things I notice about you</p>
+        <h2>Why you are <em>you</em> to me.</h2>
+      </div>
+
+      <div class="love-grid">
+        <button class="love-card" data-message="You love feeding me, and somehow food tastes better when it comes from you. 😭♡">
+          <span class="icon">🍜</span><h3>You feed me</h3><p>And yes, I notice every single time.</p>
+        </button>
+        <button class="love-card" data-message="Your kindness isn't loud. It shows up in the little things — and those little things mean a lot to me.">
+          <span class="icon">♡</span><h3>You are kind</h3><p>Especially when nobody is watching.</p>
+        </button>
+        <button class="love-card" data-message="Sabr is not just waiting. It is staying gentle while waiting. That is something I have always admired in you.">
+          <span class="icon">☾</span><h3>You have sabr</h3><p>A quality I deeply respect in you.</p>
+        </button>
+        <button class="love-card" data-message="We have seen difficult days too. I don't want to pretend otherwise. I just want you to know that those chapters matter because we learned from them.">
+          <span class="icon">∞</span><h3>We faced the odds</h3><p>And our story kept moving.</p>
+        </button>
+      </div>
+    </section>
+
+    <section class="letter-section section">
+      <div class="letter-card">
+        <div class="letter-seal">♡</div>
+        <p class="eyebrow">A note from Reenaz</p>
+        <h2>For the man who has been part of my story.</h2>
+        <p>
+          Sohail, happy birthday. I don't know how many times I have said “thank you”
+          and whether I ever said it enough. Thank you for the kindness, the patience,
+          the food you insist on feeding me, the laughs, the conversations and the
+          moments that became memories.
+        </p>
+        <p>
+          We have seen beautiful days and days that tested us. I have learned that
+          love isn't only about the easy moments. It is also about patience, growth,
+          forgiveness and making dua for a better tomorrow.
+        </p>
+        <p>
+          If Allah has written our next chapter together, I pray it is filled with
+          peace, barakah, laughter, a warm home and a lifetime of tiny everyday
+          moments that mean more than grand gestures.
+        </p>
+        <p class="signature">Always your Reenaz ♡</p>
+        <button class="btn primary" id="secretBtn">One last little surprise ✨</button>
+      </div>
+    </section>
+
+    <section class="final section">
+      <div class="final-inner">
+        <p class="eyebrow">Until then…</p>
+        <h2>May every year bring us<br><em>closer to the life we pray for.</em></h2>
+        <div class="dua">May Allah put barakah in our journey, keep our hearts soft, and make what is written for us beautiful. Ameen. ♡</div>
+        <p class="from">Made with love by Reenaz · for Sohail</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="messageModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="message-box">
+      <button class="close" data-close aria-label="Close">×</button>
+      <div class="big-heart">♡</div>
+      <p class="eyebrow">A little message for you</p>
+      <p id="modalMessage"></p>
+      <span class="tiny">— Reenaz</span>
+    </div>
+  </div>
+
+  <div class="modal" id="letterModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="message-box letter-popup">
+      <button class="close" data-close aria-label="Close">×</button>
+      <div class="big-heart">✉</div>
+      <p class="eyebrow">Dear Sohail</p>
+      <p>
+        If you are reading this, just know that I made this little website because
+        some feelings deserve more than a WhatsApp message. You are part of a very
+        important chapter of my life, and I hope you always remember that. Happy birthday,
+        my love. ♡
+      </p>
+      <p class="tiny">P.S. You still owe me food. 😌</p>
+    </div>
+  </div>
+
+  <footer>
+    <span>R ♡ S</span>
+    <span>06.05.2022 → forever, if Allah wills</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
